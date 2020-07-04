@@ -45,11 +45,13 @@ section{
     background-image: url('images/header-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 
 }
 .half-width{
     width: 50%;
     float: left;
+
 }
 .half-width img{
     width: 100%;
@@ -57,9 +59,8 @@ section{
 .header-left{
     padding-top: 180px;
 }
-h2{
 
-}
+
 h1{
     font-size: 50px;
     font-weight: bold;
@@ -95,6 +96,7 @@ Biography part start
     background-image: url('images/biography-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 .bio-right{
     padding-top: 180px;
@@ -116,9 +118,7 @@ latest work start
     text-align: center;
     padding: 60px 0;
 }
-.work-items{
 
-}
 .work-items img{
     height: 100%;
     width: 31.2%;
