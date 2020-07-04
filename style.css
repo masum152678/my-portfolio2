@@ -38,7 +38,7 @@ header area start
 *****************************/
 
 section{
-    height: 620px;
+    height: 545px;
 }
 .header{
     background-image: url('images/header-bg.png');
@@ -162,11 +162,13 @@ client part start
 .contact h5{
     color: #ffffff;
     text-align: center;
-    padding: 20px 0;
+    padding-top: 20px;
 }
 .contact a{
     color: #ffffff;
     padding: 50px 230px;
+    display: block;
+    text-align: center;
 }
 
 .client-part h6{
